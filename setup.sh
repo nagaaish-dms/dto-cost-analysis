@@ -5,7 +5,7 @@ echo "Setting up DTO Cost Analysis Agent..."
 
 # Install dependencies
 echo "Installing Python dependencies..."
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Set AWS region if not already set
 export AWS_REGION=${AWS_REGION:-us-east-1}
